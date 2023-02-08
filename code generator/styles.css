@@ -1,0 +1,100 @@
+@import :user-valid("https://fonts.googleapis.com/css2?family=popins:wght0200;400;600&diplay=swap");
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    font-family: "poppins",sans-serif;
+    background: linear-gradient(to right bottom,#ea2c62,#52057f  )no-repeat;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    background-color: #52057f;
+    padding: 20px;
+    border-radius: 5px;
+    width: 371px;
+}
+h1{font-size: 30px;
+color: whitesmoke;
+text-align: center;
+margin-bottom: 10px;}
+
+.form-control{
+    display:flex ;
+justify-content:space-between;
+align-items: center;
+padding: 19px 0;
+color: #fff;
+ border-bottom: 1px solid green ;}
+ 
+ .form-control label{
+    cursor:pointer;
+ }
+
+ .p-holder{
+    position: flex;
+ }
+
+ .p-holder input{
+    width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   background-color: #ea2c62;
+   padding:  9px; left: 55px ;
+   border-radius: 3px;
+   color: #fff;
+   outline: none;
+   border:none;
+   font-size: 16px;
+
+ }
+
+ .p-holder button,
+ .form-control input[type=number]{
+    padding: 2px; 
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 3px  0  0 0;
+ }
+
+ .p-holder button{
+    position: absolute;
+    bottom: none;
+    cursor: pointer;
+    
+ }
+ #submit{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: aqua;
+font-size: 18px;
+font-weight: 600;
+
+outline: none;
+border-radius: 3px;
+color:grey;
+cursor: pointer;
+transition: all .3s;
+
+ }
+
+ #submit:hover{
+    background-color: darkred;
+
+ }
+ #submit:active{
+    background-color: violet;
+ }
